@@ -1,0 +1,1160 @@
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Black Mesa\bms\materials
+Loading D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5679 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 35 texinfos to 16
+Reduced 8 texdatas to 8 (193 bytes to 193)
+Writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.prt
+  15 portalclusters
+  21 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 179
+Average clusters visible: 11
+Building PAS...
+Average clusters audible: 15
+visdatasize:184  compressed from 240
+writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+66 faces
+6621 square feet [953536.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+66 patches before subdivision
+1250 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 83384, max 203
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1888, 1826, 1598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(188, 199, 137)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(34, 37, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 15/8192          180/98304    ( 0.2%) 
+brushsides              90/65536         720/524288   ( 0.1%) 
+planes                  62/65536        1240/1310720  ( 0.1%) 
+vertexes                82/65536         984/786432   ( 0.1%) 
+nodes                   47/65536        1504/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   66/65536        3696/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               33/65536        1848/3670016  ( 0.1%) 
+leaves                  49/65536        1568/2097152  ( 0.1%) 
+leaffaces               69/65536         138/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              438/512000       1752/2048000  ( 0.1%) 
+edges                  252/256000       1008/1024000  ( 0.1%) 
+LDR worldlights          1/8192          100/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            54/65536         108/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       69832/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         184/16777216 ( 0.0%) 
+entdata               [variable]         825/393216   ( 0.2%) 
+LDR ambient table       49/65536         196/262144   ( 0.1%) 
+HDR ambient table       49/65536         196/262144   ( 0.1%) 
+LDR leaf ambient       145/65536        4060/1835008  ( 0.2%) 
+HDR leaf ambient        49/65536        1372/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/652      ( 0.2%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        5679/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 174
+Writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Black Mesa\bms\materials
+Loading D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5679 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 35 texinfos to 16
+Reduced 8 texdatas to 8 (193 bytes to 193)
+Writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.prt
+  15 portalclusters
+  21 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 179
+Average clusters visible: 11
+Building PAS...
+Average clusters audible: 15
+visdatasize:184  compressed from 240
+writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+66 faces
+6621 square feet [953536.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+66 patches before subdivision
+1250 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 83384, max 203
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1888, 1826, 1598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(188, 199, 137)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(34, 37, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 15/8192          180/98304    ( 0.2%) 
+brushsides              90/65536         720/524288   ( 0.1%) 
+planes                  62/65536        1240/1310720  ( 0.1%) 
+vertexes                82/65536         984/786432   ( 0.1%) 
+nodes                   47/65536        1504/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   66/65536        3696/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               33/65536        1848/3670016  ( 0.1%) 
+leaves                  49/65536        1568/2097152  ( 0.1%) 
+leaffaces               69/65536         138/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              438/512000       1752/2048000  ( 0.1%) 
+edges                  252/256000       1008/1024000  ( 0.1%) 
+LDR worldlights          1/8192          100/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            54/65536         108/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       69832/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         184/16777216 ( 0.0%) 
+entdata               [variable]         827/393216   ( 0.2%) 
+LDR ambient table       49/65536         196/262144   ( 0.1%) 
+HDR ambient table       49/65536         196/262144   ( 0.1%) 
+LDR leaf ambient       145/65536        4060/1835008  ( 0.2%) 
+HDR leaf ambient        49/65536        1372/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/652      ( 0.2%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        5679/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 174
+Writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Black Mesa\bms\materials
+Loading D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5679 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 35 texinfos to 16
+Reduced 8 texdatas to 8 (193 bytes to 193)
+Writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.prt
+  15 portalclusters
+  21 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 179
+Average clusters visible: 11
+Building PAS...
+Average clusters audible: 15
+visdatasize:184  compressed from 240
+writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+66 faces
+6621 square feet [953536.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+66 patches before subdivision
+1250 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 83384, max 203
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1888, 1826, 1598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(188, 199, 137)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(34, 37, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 15/8192          180/98304    ( 0.2%) 
+brushsides              90/65536         720/524288   ( 0.1%) 
+planes                  62/65536        1240/1310720  ( 0.1%) 
+vertexes                82/65536         984/786432   ( 0.1%) 
+nodes                   47/65536        1504/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   66/65536        3696/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               33/65536        1848/3670016  ( 0.1%) 
+leaves                  49/65536        1568/2097152  ( 0.1%) 
+leaffaces               69/65536         138/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              438/512000       1752/2048000  ( 0.1%) 
+edges                  252/256000       1008/1024000  ( 0.1%) 
+LDR worldlights          1/8192          100/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            54/65536         108/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       69832/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         184/16777216 ( 0.0%) 
+entdata               [variable]         818/393216   ( 0.2%) 
+LDR ambient table       49/65536         196/262144   ( 0.1%) 
+HDR ambient table       49/65536         196/262144   ( 0.1%) 
+LDR leaf ambient       145/65536        4060/1835008  ( 0.2%) 
+HDR leaf ambient        49/65536        1372/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/652      ( 0.2%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        5679/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 174
+Writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Black Mesa\bms\materials
+Loading D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5679 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 35 texinfos to 16
+Reduced 8 texdatas to 8 (193 bytes to 193)
+Writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.prt
+  15 portalclusters
+  21 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 179
+Average clusters visible: 11
+Building PAS...
+Average clusters audible: 15
+visdatasize:184  compressed from 240
+writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+66 faces
+6621 square feet [953536.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+66 patches before subdivision
+1250 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 83384, max 203
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1888, 1826, 1598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(188, 199, 137)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(34, 37, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 15/8192          180/98304    ( 0.2%) 
+brushsides              90/65536         720/524288   ( 0.1%) 
+planes                  62/65536        1240/1310720  ( 0.1%) 
+vertexes                82/65536         984/786432   ( 0.1%) 
+nodes                   47/65536        1504/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   66/65536        3696/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               33/65536        1848/3670016  ( 0.1%) 
+leaves                  49/65536        1568/2097152  ( 0.1%) 
+leaffaces               69/65536         138/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              438/512000       1752/2048000  ( 0.1%) 
+edges                  252/256000       1008/1024000  ( 0.1%) 
+LDR worldlights          1/8192          100/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            54/65536         108/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       69832/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         184/16777216 ( 0.0%) 
+entdata               [variable]         817/393216   ( 0.2%) 
+LDR ambient table       49/65536         196/262144   ( 0.1%) 
+HDR ambient table       49/65536         196/262144   ( 0.1%) 
+LDR leaf ambient       145/65536        4060/1835008  ( 0.2%) 
+HDR leaf ambient        49/65536        1372/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/652      ( 0.2%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        5679/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 174
+Writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Black Mesa\bms\materials
+Loading D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5679 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 35 texinfos to 16
+Reduced 8 texdatas to 8 (193 bytes to 193)
+Writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.prt
+  15 portalclusters
+  21 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 179
+Average clusters visible: 11
+Building PAS...
+Average clusters audible: 15
+visdatasize:184  compressed from 240
+writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+66 faces
+6621 square feet [953536.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+66 patches before subdivision
+1250 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 83384, max 203
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1888, 1826, 1598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(188, 199, 137)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(34, 37, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 15/8192          180/98304    ( 0.2%) 
+brushsides              90/65536         720/524288   ( 0.1%) 
+planes                  62/65536        1240/1310720  ( 0.1%) 
+vertexes                82/65536         984/786432   ( 0.1%) 
+nodes                   47/65536        1504/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   66/65536        3696/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               33/65536        1848/3670016  ( 0.1%) 
+leaves                  49/65536        1568/2097152  ( 0.1%) 
+leaffaces               69/65536         138/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              438/512000       1752/2048000  ( 0.1%) 
+edges                  252/256000       1008/1024000  ( 0.1%) 
+LDR worldlights          1/8192          100/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            54/65536         108/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       69832/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         184/16777216 ( 0.0%) 
+entdata               [variable]         815/393216   ( 0.2%) 
+LDR ambient table       49/65536         196/262144   ( 0.1%) 
+HDR ambient table       49/65536         196/262144   ( 0.1%) 
+LDR leaf ambient       145/65536        4060/1835008  ( 0.2%) 
+HDR leaf ambient        49/65536        1372/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/652      ( 0.2%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        5679/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 174
+Writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Black Mesa\bms\materials
+Loading D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5679 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 35 texinfos to 16
+Reduced 8 texdatas to 8 (193 bytes to 193)
+Writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.prt
+  15 portalclusters
+  21 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 179
+Average clusters visible: 11
+Building PAS...
+Average clusters audible: 15
+visdatasize:184  compressed from 240
+writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+66 faces
+6621 square feet [953536.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+66 patches before subdivision
+1250 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 83384, max 203
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1888, 1826, 1598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(188, 199, 137)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(34, 37, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 15/8192          180/98304    ( 0.2%) 
+brushsides              90/65536         720/524288   ( 0.1%) 
+planes                  62/65536        1240/1310720  ( 0.1%) 
+vertexes                82/65536         984/786432   ( 0.1%) 
+nodes                   47/65536        1504/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   66/65536        3696/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               33/65536        1848/3670016  ( 0.1%) 
+leaves                  49/65536        1568/2097152  ( 0.1%) 
+leaffaces               69/65536         138/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              438/512000       1752/2048000  ( 0.1%) 
+edges                  252/256000       1008/1024000  ( 0.1%) 
+LDR worldlights          1/8192          100/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            54/65536         108/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       69832/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         184/16777216 ( 0.0%) 
+entdata               [variable]         820/393216   ( 0.2%) 
+LDR ambient table       49/65536         196/262144   ( 0.1%) 
+HDR ambient table       49/65536         196/262144   ( 0.1%) 
+LDR leaf ambient       145/65536        4060/1835008  ( 0.2%) 
+HDR leaf ambient        49/65536        1372/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/652      ( 0.2%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        5679/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 174
+Writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Black Mesa\bms\materials
+Loading D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5679 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 35 texinfos to 16
+Reduced 8 texdatas to 8 (193 bytes to 193)
+Writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.prt
+  15 portalclusters
+  21 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 179
+Average clusters visible: 11
+Building PAS...
+Average clusters audible: 15
+visdatasize:184  compressed from 240
+writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+66 faces
+6621 square feet [953536.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+66 patches before subdivision
+1250 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 83384, max 203
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1888, 1826, 1598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(188, 199, 137)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(34, 37, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 15/8192          180/98304    ( 0.2%) 
+brushsides              90/65536         720/524288   ( 0.1%) 
+planes                  62/65536        1240/1310720  ( 0.1%) 
+vertexes                82/65536         984/786432   ( 0.1%) 
+nodes                   47/65536        1504/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   66/65536        3696/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               33/65536        1848/3670016  ( 0.1%) 
+leaves                  49/65536        1568/2097152  ( 0.1%) 
+leaffaces               69/65536         138/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              438/512000       1752/2048000  ( 0.1%) 
+edges                  252/256000       1008/1024000  ( 0.1%) 
+LDR worldlights          1/8192          100/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            54/65536         108/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       69832/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         184/16777216 ( 0.0%) 
+entdata               [variable]         827/393216   ( 0.2%) 
+LDR ambient table       49/65536         196/262144   ( 0.1%) 
+HDR ambient table       49/65536         196/262144   ( 0.1%) 
+LDR leaf ambient       145/65536        4060/1835008  ( 0.2%) 
+HDR leaf ambient        49/65536        1372/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/652      ( 0.2%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        5679/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 174
+Writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Black Mesa\bms\materials
+Loading D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5679 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 35 texinfos to 16
+Reduced 8 texdatas to 8 (193 bytes to 193)
+Writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.prt
+  15 portalclusters
+  21 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 179
+Average clusters visible: 11
+Building PAS...
+Average clusters audible: 15
+visdatasize:184  compressed from 240
+writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+66 faces
+6621 square feet [953536.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+66 patches before subdivision
+1250 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 83384, max 203
+transfer lists:   0.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1888, 1826, 1598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(188, 199, 137)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(34, 37, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 15/8192          180/98304    ( 0.2%) 
+brushsides              90/65536         720/524288   ( 0.1%) 
+planes                  62/65536        1240/1310720  ( 0.1%) 
+vertexes                82/65536         984/786432   ( 0.1%) 
+nodes                   47/65536        1504/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   66/65536        3696/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               33/65536        1848/3670016  ( 0.1%) 
+leaves                  49/65536        1568/2097152  ( 0.1%) 
+leaffaces               69/65536         138/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              438/512000       1752/2048000  ( 0.1%) 
+edges                  252/256000       1008/1024000  ( 0.1%) 
+LDR worldlights          1/8192          100/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            54/65536         108/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       69832/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         184/16777216 ( 0.0%) 
+entdata               [variable]         823/393216   ( 0.2%) 
+LDR ambient table       49/65536         196/262144   ( 0.1%) 
+HDR ambient table       49/65536         196/262144   ( 0.1%) 
+LDR leaf ambient       145/65536        4060/1835008  ( 0.2%) 
+HDR leaf ambient        49/65536        1372/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/652      ( 0.2%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        5679/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 174
+Writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.vmf
+material "concrete/c3a1_concretewall_001c" not found.
+Material not found!: CONCRETE/C3A1_CONCRETEWALL_001C
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "tile/ceilingtiles01" not found.
+Material not found!: TILE/CEILINGTILES01
+material "concrete/c1a4_silo4_dome_b" not found.
+Material not found!: CONCRETE/C1A4_SILO4_DOME_B
+material "gasworks/fl_gasworks_metal_wall_vertical_gray" not found.
+Material not found!: GASWORKS/FL_GASWORKS_METAL_WALL_VERTICAL_GRAY
+Could not locate 'GameData' key in e:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5643 bytes)
+Error loading studio model "models/props_blackmesa/ucceilingcables.mdl"!
+Error loading studio model "models/props_blackmesa/ceiling_cables.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 35 texinfos to 16
+Reduced 8 texdatas to 8 (193 bytes to 193)
+Writing D:\SteamLibrary\steamapps\common\Black Mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+reading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.prt
+  15 portalclusters
+  21 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 179
+Average clusters visible: 11
+Building PAS...
+Average clusters audible: 15
+visdatasize:184  compressed from 240
+writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+66 faces
+6621 square feet [953536.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+66 patches before subdivision
+322 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6845, max 95
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8, 12, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 15/8192          180/98304    ( 0.2%) 
+brushsides              90/65536         720/524288   ( 0.1%) 
+planes                  62/65536        1240/1310720  ( 0.1%) 
+vertexes                82/65536         984/786432   ( 0.1%) 
+nodes                   47/65536        1504/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   66/65536        3696/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               33/65536        1848/3670016  ( 0.1%) 
+leaves                  49/65536        1568/2097152  ( 0.1%) 
+leaffaces               69/65536         138/131072   ( 0.1%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              438/512000       1752/2048000  ( 0.1%) 
+edges                  252/256000       1008/1024000  ( 0.1%) 
+LDR worldlights          1/8192           88/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            54/65536         108/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]        4336/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         184/16777216 ( 0.0%) 
+entdata               [variable]         823/393216   ( 0.2%) 
+LDR ambient table       49/65536         196/262144   ( 0.1%) 
+HDR ambient table       49/65536         196/262144   ( 0.1%) 
+LDR leaf ambient       137/65536        3836/1835008  ( 0.2%) 
+HDR leaf ambient        49/65536        1372/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105683/0        ( 0.0%) 
+physics               [variable]        5643/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 174
+Writing d:\steamlibrary\steamapps\common\black mesa\bin\vmf\bm_testlabs01.bsp
+0 seconds elapsed
